@@ -1,0 +1,251 @@
+## Example Config file
+baseURL: "https://manishlamichhane.github.io"
+theme: "terminalcv"
+title: "Manish Lamichhane's CV"
+
+params:
+  version: '2.0.0'
+  description: "Manish Lamichhane's CV"
+  prompt:
+    core:
+      text: "root@manishlamichhane"
+      color: 'pink'
+      before: '['
+      beforeColor: 'red'
+      after: '\]'
+      afterColor: 'red'
+      # separator: '-'
+    separator:
+      text: "-"
+      # color: 
+    path: 
+      before: '['
+      beforeColor: 'red'
+      text: '~/terminalcv'
+      color: 'blue'
+      after: '\]'
+      afterColor: 'red'
+    extra:
+      text: ": "
+      color: 'orange'
+
+  # promptColor: grey
+  # promptSimbols: ":~$"
+  # promptSimbolsColor: grey
+  # startxLocation: https://example.com
+  # useLess: true
+  exitLocation: 'about:blank'
+  source: true
+  #use a ‎ (blank character) if your first character of the ascii art is a whitespace
+  greeting: | 
+    ‎ _                      _             _  _______      __
+    | |                    (_)           | |/ ____\ \    / /
+    | |_ ___ _ __ _ __ ___  _ _ __   __ _| | |     \ \  / / 
+    | __/ _ \ '__| '_ ` _ \| | '_ \ / _` | | |      \ \/ /  
+    | ||  __/ |  | | | | | | | | | | (_| | | |____   \  /   
+     \__\___|_|  |_| |_| |_|_|_| |_|\__,_|_|\_____|   \/
+
+    Welcome to Manish Lamichhane's online resume
+
+    Template Credits: https://github.com/coolapso/hugo-theme-terminalcv and hugo
+
+    Type 'help' for a list of available commands
+
+
+  whois: 
+    # settings:
+    #   useLess: true
+    details:
+      name: "Manish Lamichhane"
+      profession: "Backend Enginner + DevOps"
+      location: "Germany, Earth"
+      email: "manishlamichhane@gmail.com"
+      homelink: "https://manishlamichhane.github.io"
+      description: |
+              ----
+
+  social:
+    # settings:
+    #   useLess: true
+    #   hideName: true
+    details:
+    - name: "github"
+      url: "https://github.com/manishlamichhane/"
+    - name: "gitlab"
+      url: "https://gitlab.com/manishlamichhane/"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/manish-l-303a0166/"
+
+  work:
+    # settings:
+    #   useLess: true
+    details:
+    - jobTitle: Software Engineer & DevOps
+      color: green
+      company: 'Ströer SE & Co. KGaA' 
+      location: Cologne, Germany
+      date: Nov 2022 - Present
+      description: Master DB Management System, MS SQLServer, Python DJango, Kubernetes, Azure Devops, Azure Cloud, docker
+
+    - jobTitle: Backend Engineer & DevOps
+      color: purple
+      company: 'Chemondis GmbH'
+      location: Cologne, Germany
+      date: October 2019  - Nov 2022
+      description: E-commerce backend development, Postgres, Python, Django, kubernetes, Github actions, GOCD, AWS
+
+    - jobTitle: Backend Engineer
+      color: red
+      company: 'Jobtender24 GmbH'
+      location: Düsseldorf, Germany
+      date: July 2017 - October 2019
+      description: Headhunting Web App development, gitlab, Django, AWS, Elasticbeanstalk, Postgres
+
+  education:
+    details:
+    - courseName: Masters in Pervasive Computing and Communication for Sustainable Development
+      color: red
+      date: Aug 2015 - July 2017
+      description: Erasmus Mundus funded Masters program focusing in Green IT, networking and Software Development
+
+    - courseName: Bachelors in Information Management
+      color: red
+      date: Aug 2009 - July 2013
+
+  skills:
+    settings:
+      useLess: true
+    details:
+    - name: Python
+      percentage: 75
+      description: Has been using Python since 2017. Can solve complex business problems with modular and testable code.
+
+    - name: Django + REST Framework
+      percentage: 90
+      description: Has been using Django since 2017. Write testable, extendable modules and APIs
+
+    - name: DevOps
+      percentage: 60
+      description: Can create / maintain Pipelines in Github Actions, Azure DevOps and Gitlab. Has worked with AWS, Azure and Digital Ocean cloud. Has worked with terraform, pulumi and terragrunt.
+    
+    - name: SQL & NoSQL
+      percentage: 50
+      description: Understands fundamental SQL Concepts (Joins, Referential Integrity, Views, Indexing etc). Has worked with Postgres, MSSQL, MySQL and MongoDB
+    
+    - name: Search
+      percentage: 50
+      description: Experienced with Aloglia, Elastic Search, indexing process. Has written Adapters in Python to support custom symbols that translates to appropriate SQL Queries
+    
+    - name: Monitoring
+      percentage: 50
+      description: Experienced with setting up and working with Sentry. Worked with Datadog.
+    
+    - name: Testing
+      percentage: 100
+      description: Emphasizes on testability, debuggability and modularity. Fond of Pytest, good understanding of fixtures, parameterized tests, conftest, pytest-xdist, pytest-django etc.
+    
+    - name: Agile Methodologies
+      percentage: 80
+      description: Experienced in Scrum. Works closely with Product Owner to properly scope releaseable features and defining sprint goals.
+    
+    - name: Team Work
+      percentage: 100
+      description: Works together with Colleagues to help, get help on complex problems. Prefers conflict management via clear and kind communication.
+
+    - name:  Task Ownership
+      percentage: 100
+      description: Is reliable, enjoys taking ownership of feature and is responsible to see through a feature from Jira Ticket to production.
+
+  softskills:
+    # settings:
+    #   useLess: true
+    details:
+    - name: Agile Methodologies
+      percentage: 80
+      description: Experienced in Scrum. Works closely with Product Owner to properly scope releaseable features and defining sprint goals.
+    
+    - name: Team Work
+      percentage: 100
+      description: Works together with Colleagues to help, get help on complex problems. Prefers conflict management via clear and kind communication.
+
+    - name:  Task Ownership
+      percentage: 100
+      description: Is reliable, enjoys taking ownership of feature and is responsible to see through a feature from Jira Ticket to production.
+
+  languages:
+    # settings:
+    #   useLess: true
+    details:
+    - name: Nepali
+      percentage: 100
+      description: Native language
+    - name: English
+      color: Blue
+      percentage: 100
+    - name: Hindi
+      percentage: 80    
+    - name: German
+      percentage: 40
+
+  projects:
+    # settings:
+    #   useLess: true
+    details:
+    - title: Project Red
+      color: red
+      date: since 2019
+      link: https://example.com
+      description: Describing red stuff
+
+    - title: Project Blue
+      color: blue
+      date: since 2016
+      link: https://example.com/blue
+      #description: nothing to describe
+
+    - title: Project Default
+      date: Since 2017
+      link: https://example.com/default
+      #description: not there either
+
+  certifications:
+    # settings:
+    #   useLess: true
+    details:
+    - certName: Object Oriented Programming in Java
+      company: Coursera
+      date: November 19, 2015
+      badge: https://coursera.org/share/a10ee668cbdc6e83af4b7c7f51fc98f8
+    
+    - certName: Introduction to the Internet of Things and Embedded Systems
+      company: Coursera
+      date: August 15, 2016
+      badge: https://coursera.org/share/068a07b8ae00db8bcbf2c81450ee7e70
+    
+    - certName: Introduction to Kubernetes
+      company: Edx / The Linux Foundation
+      badge: https://courses.edx.org/certificates/342f1d0ade2b4ff6ba32d94bc518f2a8
+      
+
+  misc: 
+    # settings:
+    #   useLess: true
+    commandName: newcommand
+    title: "This Section can have a different command name"
+    titleColor: teal
+    content: |
+          Here the title and the content can have different colors
+          The content can be multi
+          
+          line
+
+          And spaces       will be respected as well
+          This section will have the default command: misc
+          but you can name it something else with the property
+          commandName: <String>
+          Give it a shot and try and uncomment the line 
+          commandName: newcommand
+          now instead of misc you can execute the newcommand for this section
+          Auto completion will know it too! :D 
+
+    contentColor: orange
