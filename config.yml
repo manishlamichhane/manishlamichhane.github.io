@@ -38,12 +38,15 @@ params:
   source: true
   #use a ‎ (blank character) if your first character of the ascii art is a whitespace
   greeting: | 
-    ‎ _                      _             _  _______      __
-    | |                    (_)           | |/ ____\ \    / /
-    | |_ ___ _ __ _ __ ___  _ _ __   __ _| | |     \ \  / / 
-    | __/ _ \ '__| '_ ` _ \| | '_ \ / _` | | |      \ \/ /  
-    | ||  __/ |  | | | | | | | | | | (_| | | |____   \  /   
-     \__\___|_|  |_| |_| |_|_|_| |_|\__,_|_|\_____|   \/
+    ‎ 
+       __  __             _     _     _        _______      __
+      |  \/  |           (_)   | |   ( )      / ____\ \    / /
+      | \  / | __ _ _ __  _ ___| |__ |/ ___  | |     \ \  / / 
+      | |\/| |/ _` | '_ \| / __| '_ \  / __| | |      \ \/ /  
+      | |  | | (_| | | | | \__ \ | | | \__ \ | |____   \  /   
+      |_|  |_|\__,_|_| |_|_|___/_| |_| |___/  \_____|   \/    
+                                                         
+                                                         
 
     Welcome to Manish Lamichhane's online resume
 
@@ -83,6 +86,7 @@ params:
       company: 'Ströer SE & Co. KGaA' 
       location: Cologne, Germany
       date: Nov 2022 - Present
+      website: https://www.stroeer.de/
       description: Master DB Management System, MS SQLServer, Python DJango, Kubernetes, Azure Devops, Azure Cloud, docker
 
     - jobTitle: Backend Engineer & DevOps
@@ -90,6 +94,7 @@ params:
       company: 'Chemondis GmbH'
       location: Cologne, Germany
       date: October 2019  - Nov 2022
+      website: https://chemondis.com/
       description: E-commerce backend development, Postgres, Python, Django, kubernetes, Github actions, GOCD, AWS
 
     - jobTitle: Backend Engineer
@@ -97,6 +102,7 @@ params:
       company: 'Jobtender24 GmbH'
       location: Düsseldorf, Germany
       date: July 2017 - October 2019
+      website: https://jobtender24.com/
       description: Headhunting Web App development, gitlab, Django, AWS, Elasticbeanstalk, Postgres
 
   education:
